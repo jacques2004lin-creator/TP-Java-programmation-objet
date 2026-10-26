@@ -3,7 +3,6 @@ public class RemunereSecurise extends Remunere {
         super(titulaire, soldeInitial, taux);
     }
 
-    @Override
     public void debiter(double montant) {
         if (this.getSolde() >= montant) {
             super.debiter(montant);
