@@ -8,7 +8,7 @@ public class Securise extends Compte {
         if (this.getSolde() >= montant) {
             super.debiter(montant);
         } else {
-            System.out.println("Erreur : solde insuffisant sur le compte " + this.getNumero());
+            System.out.println("solde insuffisant sur le compte " + this.getNumero());
         }
     }
 }
